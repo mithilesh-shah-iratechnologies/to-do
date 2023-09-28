@@ -49,4 +49,17 @@ app.delete(`${api}/:_id`, async (req, res) => {
   res.send(deleteRes);
 });
 
+
+app.get(`${api}/search/:key`,async(req,res)=>{
+    const searchedData= await ToDo.find({
+         "$or":[
+            {"name":{$regex: req.params.key}},
+            {"status":{$regex: req.params.key}},
+         ]
+    });
+
+    res.send(searchedData);
+
+});
+
 app.listen(3000);
