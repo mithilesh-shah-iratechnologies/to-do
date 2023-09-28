@@ -7,4 +7,3 @@ ToDoSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("to_do", ToDoSchema);
-    
