@@ -1,0 +1,19 @@
+{
+  "name": "com.mithilesh",
+  "version": "1.0.0",
+  "description": "This is to-do application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithilesh-shah-iratechnologies/to-do.git"
+  },
+  "author": "Mithilesh Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mithilesh-shah-iratechnologies/to-do/issues"
+  },
+  "homepage": "https://github.com/mithilesh-shah-iratechnologies/to-do#readme"
+}
